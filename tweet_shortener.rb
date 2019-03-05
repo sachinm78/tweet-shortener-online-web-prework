@@ -33,7 +33,8 @@ end
 
 
 def selective_tweet_shortener(tweet)
-  
+  tweet.split(" ").map do |phrase|
+    if 
 end
   
   
